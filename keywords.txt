@@ -2,9 +2,13 @@
 # Classes
 ################################
 
+NotasMIDI					KEYWORD1
+
 ################################
 # Methods and functions
 ################################
+
+solfeoToNumero		KEYWORD2
 
 ################################
 # Constants
