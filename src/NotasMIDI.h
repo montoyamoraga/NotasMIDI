@@ -16,8 +16,6 @@ class NotasMIDI {
     int solfeoToNumero(String solfeo);
     String numeroToSolfeo(int numero);
 
-
-
 };
 
 #endif
