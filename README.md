@@ -2,11 +2,13 @@
 
 ## About
 
-This library is being developed by @piruetasxyz, the art studio by @montoyamoraga.
+This Arduino library is being developed by @piruetasxyz, the art studio by @montoyamoraga.
+
+This is a work in progress, started in January 2024.
 
 ## Dependencies
 
-None
+None!
 
 ## Formatting
 
@@ -42,6 +44,10 @@ None
 | :------------- | :------------------ | :------------------ |
 | solfeoToNumero | note in solfeo      | note in MIDI number |
 | numeroToSolfeo | note in MIDI number | note in solfeo      |
+
+## Installation
+
+Arduino Library Manager
 
 ## License
 
