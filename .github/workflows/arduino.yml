@@ -28,11 +28,4 @@ jobs:
     - name: Compile Sketches
       uses: arduino/compile-sketches@v1
       with:
-        fqbn: "arduino:renesas_uno:unor4wifi"
-        sketch-paths: |
-          - examples/
-        cli-version: latest
-        platforms: |
-          - name: arduino:mbed_nano
-        libraries: |
-          - source-path: ./
+        fqbn: "arduino:avr:uno"
