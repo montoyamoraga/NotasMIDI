@@ -8,12 +8,14 @@ class NotasMIDI {
     // constructor
     NotasMIDI();
 
-    int solfeoToNumero(String solfeo);
-
-    String numeroToSolfeo(int numero);
-
     // destructor
     ~NotasMIDI();
+
+
+    // funciones de conversion
+    int solfeoToNumero(String solfeo);
+    String numeroToSolfeo(int numero);
+
 
 
 };
