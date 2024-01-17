@@ -21,11 +21,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be run as part of the job
     steps:
-
-    - name: Checkout repository
-      uses: actions/checkout@v4
-
-    - name: Compile Sketches
-      uses: arduino/compile-sketches@v1
-      with:
-        fqbn: "arduino:avr:uno"
+      - uses: actions/checkout@v4
+      - uses: arduino/compile-sketches@v1
+        with:
+          sketch-paths: |
+            - examples/
+          libraries: |
+            - source-path: ./
