@@ -23,12 +23,12 @@ jobs:
     steps:
 
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Compile Sketches
       uses: arduino/compile-sketches@v1
       with:
-        fqbn: arduino:mbed_nano:nano33ble
+        fqbn: "arduino:renesas_uno:unor4wifi"
         sketch-paths: |
           - examples/
         cli-version: latest
@@ -36,4 +36,3 @@ jobs:
           - name: arduino:mbed_nano
         libraries: |
           - source-path: ./
-          - name: Arduino_APDS9960
