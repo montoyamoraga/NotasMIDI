@@ -3,7 +3,8 @@
 // by montoyamoraga
 // january 2024
 
-#include <NotasMIDI.h>
+// import library
+#include "NotasMIDI.h"
 
 // declare instance
 NotasMIDI notasMIDI;
