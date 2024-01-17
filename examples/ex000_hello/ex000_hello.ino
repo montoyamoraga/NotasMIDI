@@ -1,4 +1,8 @@
 // import library
+// 
+// by montoyamoraga
+// january 2024
+
 #include <NotasMIDI.h>
 
 // declare instance
