@@ -14,23 +14,23 @@ None!
 
 ### Solfeo
 
-- `DO`
-- `RE`
-- `MI`
-- `FA`
-- `SO`
-- `LA`
-- `SI`
+- `do`
+- `re`
+- `mi`
+- `fa`
+- `so`
+- `la`
+- `si`
 
 ### Letras
 
-- `A`
-- `B`
-- `C`
-- `D`
-- `E`
-- `F`
-- `G`
+- `a`
+- `b`
+- `c`
+- `d`
+- `e`
+- `f`
+- `g`
 
 ### Accidentals
 

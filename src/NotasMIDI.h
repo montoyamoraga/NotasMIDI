@@ -8,8 +8,9 @@ class NotasMIDI {
     // constructor
     NotasMIDI();
 
-    
     int solfeoToNumero(String solfeo);
+
+    String numeroToSolfeo(int numero);
 
     // destructor
     ~NotasMIDI();
