@@ -9,6 +9,7 @@ NotasMIDI					KEYWORD1
 ################################
 
 solfeoToNumero		KEYWORD2
+numeroToSolfeo		KEYWORD2
 
 ################################
 # Constants
