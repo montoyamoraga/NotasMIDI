@@ -2,7 +2,7 @@
 # Classes
 ################################
 
-NotasMIDI					KEYWORD1
+NotasMIDI			KEYWORD1
 
 ################################
 # Methods and functions
@@ -10,6 +10,8 @@ NotasMIDI					KEYWORD1
 
 solfeoToNumero		KEYWORD2
 numeroToSolfeo		KEYWORD2
+solfeoToLetra		KEYWORD2
+letraToSolfeo		KEYWORD2
 
 ################################
 # Constants

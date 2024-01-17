@@ -38,5 +38,13 @@ int NotasMIDI::solfeoToNumero(String solfeo) {
   } else {
     return -999;
   }
+
+  int NotasMIDI::solfeoToLetra(String solfeo) {
+    return 0;
+  }
+
+  String NotasMIDI::letraToSolfeo(int letra) {
+    return "testing";
+  }
   
 }
