@@ -12,11 +12,13 @@ NotasMIDI notasMIDI;
 String nota = "re";
 
 void setup() {
+  // open serial communication
   Serial.begin(9600);
 }
 
 void loop() {
+  // print result
   Serial.println(notasMIDI.solfeoToNumero(nota));
-
+  // wait for one second
   delay(1000);
 }
