@@ -20,19 +20,24 @@ class NotasMIDI {
     String letraToSolfeo(int letra);
 
   protected:
-    char *notasSolfeo[12] = {
-    "do",
-    "^do",
-    "re",
-    "^re",
-    "mi",
-    "fa",
-    "^fa",
-    "sol",
-    "^sol",
-    "la",
-    "^la",
-    "si"
+
+  int minMIDINota = 0;
+  int maxMIDINota = 127;
+
+
+  char *notasSolfeo[12] = {
+  "do",
+  "^do",
+  "re",
+  "^re",
+  "mi",
+  "fa",
+  "^fa",
+  "sol",
+  "^sol",
+  "la",
+  "^la",
+  "si"
 };
 
 };

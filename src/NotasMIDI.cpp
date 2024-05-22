@@ -3,19 +3,18 @@
 // constructor
 NotasMIDI::NotasMIDI() {
 
-
 }
 
 // destructor
 NotasMIDI::~NotasMIDI() {}
 
 String NotasMIDI::numeroToSolfeo(int numero) {
-  if (numero < 0) {
+  if (numero < NotasMIDI::minMIDINota) {
     return "outOfRange";
-  } else if (numero > 127) {
+  } else if (numero > maxMIDINota) {
     return "outOfRange";
   } else {
-    // number inside of range, normallize to numbers between 0 and 11
+    // numero no esta fuera de rango
     numero = numero % 12;
     return NotasMIDI::notasSolfeo[numero];
   }
