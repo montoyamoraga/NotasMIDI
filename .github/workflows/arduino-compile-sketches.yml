@@ -21,7 +21,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be run as part of the job
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: arduino/compile-sketches@v1
         with:
           fqbn: "arduino:avr:uno"
