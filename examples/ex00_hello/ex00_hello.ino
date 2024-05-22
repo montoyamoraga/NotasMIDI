@@ -1,7 +1,9 @@
 // import library
-// 
+// ex00_hello
 // by montoyamoraga
 // january 2024
+
+// this example tests if the library is working
 
 // import library
 #include "NotasMIDI.h"
