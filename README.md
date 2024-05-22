@@ -44,6 +44,8 @@ None by design.
 | :------------- | :------------------ | :------------------ |
 | solfeoToNumero | note in solfeo      | note in MIDI number |
 | numeroToSolfeo | note in MIDI number | note in solfeo      |
+| solfeoToLetra  | note in solfeo      | note in letra       |
+| letraToSolfeo  | note in letra       | note in solfeo      |
 
 ## Installation
 
