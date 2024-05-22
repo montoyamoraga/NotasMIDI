@@ -8,7 +8,7 @@ This is a work in progress, started in January 2024.
 
 ## Dependencies
 
-None!
+None by design.
 
 ## Formatting
 
