@@ -1,13 +1,38 @@
 #include "NotasMIDI.h"
 
 // constructor
-NotasMIDI::NotasMIDI() {}
+NotasMIDI::NotasMIDI() {
+
+  char *notasSolfeo[] = {
+  "do",
+  "^do",
+  "re",
+  "^re",
+  "mi",
+  "fa",
+  "^fa",
+  "sol",
+  "^sol",
+  "la",
+  "^la",
+  "si"
+  };
+
+}
 
 // destructor
 NotasMIDI::~NotasMIDI() {}
 
 String NotasMIDI::numeroToSolfeo(int numero) {
-  return "testing";
+  if (numero < 0) {
+    return "outOfRange";
+  } else if (numero > 127) {
+    return "outOfRange";
+  } else {
+    // number inside of range, normallize to numbers between 0 and 11
+    numero = numero % 12;
+    return notasSolfeo[numero];
+  }
 }
 
 int NotasMIDI::solfeoToNumero(String solfeo) {
