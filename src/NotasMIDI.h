@@ -24,7 +24,6 @@ class NotasMIDI {
   int minMIDINota = 0;
   int maxMIDINota = 127;
 
-
   char *notasSolfeo[12] = {
   "do",
   "^do",
@@ -38,6 +37,21 @@ class NotasMIDI {
   "la",
   "^la",
   "si"
+};
+
+  char *notasSolfeo[12] = {
+  "c",
+  "^c",
+  "d",
+  "^d",
+  "e",
+  "f",
+  "^f",
+  "g",
+  "^g",
+  "a",
+  "^a",
+  "a"
 };
 
 };
