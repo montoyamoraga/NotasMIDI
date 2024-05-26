@@ -39,7 +39,7 @@ class NotasMIDI {
   "si"
 };
 
-  char *notasSolfeo[12] = {
+  char *notasLetras[12] = {
   "c",
   "^c",
   "d",
