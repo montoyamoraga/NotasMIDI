@@ -16,8 +16,8 @@ class NotasMIDI {
     int solfeoToNumero(String solfeo);
 
     // conversion between solfeo and letras
-    int solfeoToLetra(String solfeo);
-    String letraToSolfeo(int letra);
+    String solfeoToLetra(String solfeo);
+    String letraToSolfeo(String letra);
 
   protected:
 

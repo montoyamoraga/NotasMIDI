@@ -1,6 +1,6 @@
 // ex01_note_numbers
 // by montoyamoraga
-// january 2024
+// may 2024
 
 // this example tests the note numbers
 

@@ -1,4 +1,3 @@
-// import library
 // ex00_hello
 // by montoyamoraga
 // january 2024
