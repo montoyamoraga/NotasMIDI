@@ -49,7 +49,7 @@ None by design.
 
 ## Installation
 
-Arduino Library Manager
+via Arduino Library Manager or via the repo.
 
 ## License
 

@@ -19,10 +19,16 @@ class NotasMIDI {
     String solfeoToLetra(String solfeo);
     String letraToSolfeo(String letra);
 
+
   protected:
+
+  int velocidadSerial = 31250;
 
   int minMIDINota = 0;
   int maxMIDINota = 127;
+
+  int noteOn = 0x90;
+  int noteOff = 0x80;
 
   char *notasSolfeo[12] = {
   "do",
