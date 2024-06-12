@@ -16,3 +16,6 @@ letraToSolfeo		KEYWORD2
 ################################
 # Constants
 ################################
+
+minMIDINota		KEYWORD3
+maxMIDINota		KEYWORD3
