@@ -19,9 +19,6 @@ class NotasMIDI {
     String solfeoToLetra(String solfeo);
     String letraToSolfeo(String letra);
 
-
-  protected:
-
   int velocidadSerial = 31250;
 
   int minMIDINota = 0;
