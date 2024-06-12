@@ -19,3 +19,4 @@ letraToSolfeo		KEYWORD2
 
 minMIDINota		KEYWORD3
 maxMIDINota		KEYWORD3
+velocidadSerial	KEYWORD3
